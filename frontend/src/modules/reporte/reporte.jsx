@@ -75,7 +75,7 @@ const reporte=()=>{
     const MiDocumentopdf=()=>(
         <Document>
             <Page size="A4" style={styles.page}>
-                <Text style={styles.titulo}>Reporte de productos por categoria</Text>
+                <Text style={styles.titulo}>Reporte de estudiantes por curso</Text>
                 <Text style={styles.fecha}>Generado el:{new Date().toLocaleDateString()}</Text>
                 {
                     Object.keys(estudianteAgrupados).map((curso)=>(
